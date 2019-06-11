@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lenovo/x3/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lenovo/x3/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/lenovo/x3/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/lenovo/x3/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lenovo/x3/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
     vendor/lenovo/x3/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
@@ -162,17 +163,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/lenovo/x3/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/lenovo/x3/proprietary/lib/libivc_smartengine.so:system/lib/libivc_smartengine.so \
+    vendor/lenovo/x3/proprietary/lib/libkaraoke.so:system/lib/libkaraoke.so \
     vendor/lenovo/x3/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/x3/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/x3/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/x3/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/x3/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/x3/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/lenovo/x3/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/lenovo/x3/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/lenovo/x3/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/lenovo/x3/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lenovo/x3/proprietary/lib64/libbson.so:system/lib64/libbson.so \
     vendor/lenovo/x3/proprietary/lib64/libcamerabgproc-jni.so:system/lib64/libcamerabgproc-jni.so \
+    vendor/lenovo/x3/proprietary/lib64/libkaraoke.so:system/lib64/libkaraoke.so \
     vendor/lenovo/x3/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/x3/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/x3/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
