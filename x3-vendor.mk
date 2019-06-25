@@ -18,16 +18,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/x3/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/x3/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/lenovo/x3/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/lenovo/x3/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/x3/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/x3/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lenovo/x3/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lenovo/x3/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lenovo/x3/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/lenovo/x3/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/x3/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lenovo/x3/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lenovo/x3/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/x3/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/x3/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -35,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lenovo/x3/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/x3/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lenovo/x3/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/x3/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lenovo/x3/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/x3/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -51,20 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/x3/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/x3/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/lenovo/x3/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lenovo/x3/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/lenovo/x3/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lenovo/x3/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lenovo/x3/proprietary/etc/firmware/florida-dsp1-rx-anc.bin:system/etc/firmware/florida-dsp1-rx-anc.bin \
     vendor/lenovo/x3/proprietary/etc/firmware/florida-dsp1-rx-anc.wmfw:system/etc/firmware/florida-dsp1-rx-anc.wmfw \
@@ -103,16 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/etc/firmware/florida-dsp4-ez2hear-wb-rx-handset.bin:system/etc/firmware/florida-dsp4-ez2hear-wb-rx-handset.bin \
     vendor/lenovo/x3/proprietary/etc/firmware/florida-dsp4-ez2hear-wb-rx-headset.bin:system/etc/firmware/florida-dsp4-ez2hear-wb-rx-headset.bin \
     vendor/lenovo/x3/proprietary/etc/firmware/florida-dsp4-ez2hear-wb-rx-speaker.bin:system/etc/firmware/florida-dsp4-ez2hear-wb-rx-speaker.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lenovo/x3/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/lenovo/x3/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/lenovo/x3/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/lenovo/x3/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/lenovo/x3/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -120,24 +94,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/x3/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lenovo/x3/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/lenovo/x3/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/lenovo/x3/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/lenovo/x3/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/x3/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/x3/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lenovo/x3/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/lenovo/x3/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/lenovo/x3/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/lenovo/x3/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/lenovo/x3/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/lenovo/x3/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/lenovo/x3/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lenovo/x3/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/lenovo/x3/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
-    vendor/lenovo/x3/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
-    vendor/lenovo/x3/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
-    vendor/lenovo/x3/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lenovo/x3/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/x3/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
     vendor/lenovo/x3/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
@@ -177,9 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/lenovo/x3/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lenovo/x3/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:system/vendor/lib/hw/activity_recognition.msm8992.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -190,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
@@ -229,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libcamera_bm_algo.so:system/vendor/lib/libcamera_bm_algo.so \
@@ -348,15 +303,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libchromatix_s5k3m2xx_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_snapshot.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -443,28 +394,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/lenovo/x3/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lenovo/x3/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/x3/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lenovo/x3/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/lenovo/x3/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/x3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/x3/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/lenovo/x3/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -512,21 +446,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
@@ -535,7 +461,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
@@ -543,10 +468,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
@@ -570,7 +491,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -586,20 +506,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x3/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/lenovo/x3/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/lenovo/x3/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/x3/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    ims
+    TimeService
